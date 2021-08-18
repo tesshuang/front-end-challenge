@@ -1,0 +1,80 @@
+:root {
+  --blue01: hsl(225, 100%, 98%);
+  --blue02: hsl(225, 100%, 94%);
+  --blue03: hsl(245, 75%, 52%);
+  --blue04: hsl(224, 23%, 55%);
+  --blue05: hsl(223, 47%, 23%);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  background-color: var(--blue02);
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+section {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  width: 327px;
+  overflow: hidden;
+  text-align: center;
+  color: var(--blue04);
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.card h2 {
+  color: var(--blue05);
+}
+
+.content {
+  padding: 36px 24px;
+}
+ß
+.plan {
+  padding: 16px;
+  background-color: var(--blue02);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.plan h4 {
+  color: var(--blue05);
+}
+
+.plan h4, .plan p {
+  margin: 0;
+}
+
+.plan a {
+  color: var(--blue03);
+  font-weight: bold;
+}
+.attribution { 
+  flex-shrink: 0;
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
